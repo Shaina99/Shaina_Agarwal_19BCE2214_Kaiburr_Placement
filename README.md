@@ -80,6 +80,9 @@ Create a basic WEB UI frontend for an application that you created for #1 or #2 
 framework of your choice. You should be able to create, show and delete records from your UI.
 
 
+HTML AND CSS have been used to create front end for Task1 .
+
+
 
 1)CREATE CAR RECORDS:
 
