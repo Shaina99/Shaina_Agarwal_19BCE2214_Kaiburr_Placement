@@ -90,7 +90,7 @@ framework of your choice. You should be able to create, show and delete records 
 
 3)DELETE CAR RECORDS:
 
-After deletion gets Redirected to Main Page:
+After deletion gets Redirected to Main Page.
 
 
 
