@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SHOW RECORD </title>
+</head>
+<style>
+    span{
+        font-size: xx-large;
+        padding: 20px 40px;
+    }
+
+    a{
+        width: 100%;
+        background-color: dodgerblue;
+        color: white;
+        padding: 10px 20px;
+        margin: 50px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+
+    a:hover {
+        color: cornflowerblue;
+    }
+
+    div {
+        alignment: center;
+        border-radius: 50px;
+        background-color: lightskyblue;
+        padding: 50px;
+        width: 30%;
+        height: 70%;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        position: center;
+
+
+    }
+    body{
+        background-color: darkcyan;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Car Management System</h1>
+
+        <hr>
+            <h2>Record Created Successfully</h2>
+
+                <span>ID No:</span><span th:text="${car.id}"></span><br/>
+                <span>Name:</span><span th:text="${car.Name}"></span><br/>
+                <span>Brand:</span><span th:text="${car.carbrand}"></span><br/>
+                <span>Price:</span><span th:text="${car.carPrice}"></span><br/>
+                <br/>
+        <a th:href="@{/car/deleteCar/{id}(id=${car.id})}">Delete</a>
+
+
+    </div>
+
+</body>
+</html>
