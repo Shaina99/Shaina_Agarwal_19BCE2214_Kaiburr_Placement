@@ -88,6 +88,13 @@ framework of your choice. You should be able to create, show and delete records 
 ![image](https://user-images.githubusercontent.com/111378981/228606993-306447be-4db5-46b8-ba71-8cc2ba27e66d.png)
 
 
+3)DELETE CAR RECORDS:
+
+After deletion gets Redirected to Main Page:
+
+
+
+
 
 
 
